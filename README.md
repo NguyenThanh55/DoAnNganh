@@ -7,3 +7,20 @@
 ## Chức năng chính
 
 Dự án bao gồm các chức năng như sau:
++Tài khoản sinh viên
+-Đăng ký
+-Đăng nhập
+-Xem thông tin cơ bản của trang web và thông tin từ những trang web khác
+-Bình luận
+-Quên/Đổi mật khẩu
+-Đặt câu hỏi thắc mắc trong thời gian được admin cho phép
+-Đặt câu hỏi cho những buổi livestream trước khi bắt đầu
+-Nhắn tin trực tiếp với người tư vấn của nhà trường
++Tài khoản admin
+-Thêm/sửa/xóa banner
+-Thêm/sửa/xóa khoa
+-Thêm/sửa/xóa hệ đào tạo
+-Thêm/sửa/xóa
+-Thêm/sửa/xóa
+-Thêm/sửa/xóa
+-Thêm/sửa/xóa
