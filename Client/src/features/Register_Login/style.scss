@@ -1,0 +1,47 @@
+.textDky {
+  text-align: start;
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: large;
+  color: rgba(var(--bs-primary-rgb), var(--bs-border-opacity)) !important;
+}
+
+.opt-container > input {
+  border-color: rgba(
+    var(--bs-primary-rgb),
+    var(--bs-border-opacity)
+  ) !important;
+  background-color: white !important;
+  height: 50px !important;
+  width: 100% !important;
+  color: rgba(var(--bs-primary-rgb), var(--bs-border-opacity)) !important;
+  border: 1px solid;
+}
+
+.d-flex button {
+  border-color: rgba(
+    var(--bs-primary-rgb),
+    var(--bs-border-opacity)
+  ) !important;
+  // background-color: rgba(
+  //   var(--bs-primary-rgb),
+  //   var(--bs-border-opacity)
+  // ) !important;
+  background-color: rgb(41, 41, 237) !important;
+  color: white !important;
+  border: 1px solid;
+  font-weight: bold;
+}
+
+.d-flex button:hover {
+  border-color: white !important;
+  background-color: rgb(20, 20, 165) !important;
+  color: white !important;
+  border: 1px solid;
+}
+
+.react-tel-input .form-control {
+  left: 29.5px !important;
+  width: 95% !important;
+  height: 50px;
+}

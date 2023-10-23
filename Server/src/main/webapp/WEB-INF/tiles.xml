@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache
+Software Foundation//DTD Tiles Configuration 3.0//EN"
+"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+    
+    
+    <definition name="baseLayout"
+                template="/WEB-INF/layout/base.jsp">
+        <put-attribute name="title" value="" />
+        <put-attribute name="header"
+                       value="/WEB-INF/layout/header.jsp" />
+        <put-attribute name="content" value="" />
+        <put-attribute name="footer"
+                       value="/WEB-INF/layout/footer.jsp" />
+    </definition>
+    
+    
+    
+    <definition name="baseAdmin"
+                template="/WEB-INF/layout/admin/base_admin.jsp">
+        <put-attribute name="title" value="" />
+        <put-attribute name="header"
+                       value="/WEB-INF/layout/admin/header_admin.jsp" />
+        <put-attribute name="content" value="" />
+        <put-attribute name="footer"
+                       value="/WEB-INF/layout/footer.jsp" />
+    </definition>
+    
+    
+    
+    <definition name="index" extends="baseLayout">
+        <put-attribute name="title" value="Cổng thông tin tuyển sinh OU" />
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/index.jsp" />
+    </definition>
+    <definition name="department" extends="baseLayout">
+        <put-attribute name="title" value="Cổng thông tin tuyển sinh OU"/>
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/department.jsp" />
+    </definition>
+    <definition name="department_info" extends="baseLayout">
+        <put-attribute name="title" value="Cổng thông tin tuyển sinh OU"/>
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/department_info.jsp" />
+    </definition>
+    <definition name="post_index" extends="baseLayout">
+        <put-attribute name="title" value="Cổng thông tin tuyển sinh OU"/>
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/post_index.jsp" />
+    </definition>
+    <definition name="post_info" extends="baseLayout">
+        <put-attribute name="title" value="Cổng thông tin tuyển sinh OU"/>
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/post_info.jsp" />
+    </definition>
+    
+    <definition name="register" template="/WEB-INF/pages/register.jsp">
+    </definition>
+    
+    <definition name="login" template="/WEB-INF/pages/login.jsp">
+    </definition>
+    
+    <definition name="register_admin" extends="baseAdmin">
+        <put-attribute name="title" value="Quản trị OUAdmissions"/>
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/register.jsp" />
+    </definition>
+    
+    
+    <definition name="post" extends="baseAdmin">
+        <put-attribute name="title" value="Quản trị OUAdmissions"/>
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/post.jsp" />
+    </definition>
+    <definition name="add_post" extends="baseAdmin">
+        <put-attribute name="title" value="Quản trị OUAdmissions"/>
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/add_post.jsp" />
+    </definition>
+    
+    <definition name="index_admin" extends="baseAdmin">
+        <put-attribute name="title" value="Quản trị OUAdmissions"/>
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/index_admin.jsp" />
+    </definition>
+    
+    <definition name="department_admin" extends="baseAdmin">
+        <put-attribute name="title" value="Quản trị OUAdmissions"/>
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/department_admin.jsp" />
+    </definition>
+    
+    <definition name="add_department" extends="baseAdmin">
+        <put-attribute name="title" value="Quản trị OUAdmissions"/>
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/add_department.jsp" />
+    </definition>
+    
+    
+    <definition name="typeoftrainning_admin" extends="baseAdmin">
+        <put-attribute name="title" value="Quản trị OUAdmissions"/>
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/typeoftrainning_admin.jsp" />
+    </definition>
+    
+    <definition name="add_totn" extends="baseAdmin">
+        <put-attribute name="title" value="Quản trị OUAdmissions"/>
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/add_totn.jsp" />
+    </definition>
+    
+    <definition name="user" extends="baseAdmin">
+        <put-attribute name="title" value="Quản trị OUAdmissions"/>
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/user.jsp" />
+    </definition>
+    
+    <definition name="banner" extends="baseAdmin">
+        <put-attribute name="title" value="Quản trị OUAdmissions"/>
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/banner.jsp" />
+    </definition>
+    
+    <definition name="add_banner" extends="baseAdmin">
+        <put-attribute name="title" value="Quản trị OUAdmissions"/>
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/add_banner.jsp" />
+    </definition>
+
+    <definition name="livestream_admin" extends="baseAdmin">
+        <put-attribute name="title" value="Quản trị OUAdmissions"/>
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/livestream_admin.jsp" />
+    </definition>
+    <definition name="add_livestream" extends="baseAdmin">
+        <put-attribute name="title" value="Quản trị OUAdmissions"/>
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/add_livestream.jsp" />
+    </definition>
+    
+    <!--    <definition name="livestream_admin" extends="baseAdmin">
+        <put-attribute name="title" value="Quản trị OUAdmissions"/>
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/livestream_admin.jsp" />
+    </definition>-->
+    
+    <definition name="question_admin" extends="baseAdmin">
+        <put-attribute name="title" value="Quản trị OUAdmissions"/>
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/question_admin.jsp" />
+    </definition>
+
+    <definition name="comment" extends="baseAdmin">
+        <put-attribute name="title" value="Quản trị OUAdmissions"/>
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/comment.jsp" />
+    </definition>
+    
+    <definition name="add_comment" extends="baseAdmin">
+        <put-attribute name="title" value="Quản trị OUAdmissions"/>
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/add_comment.jsp" />
+    </definition>
+    <definition name="date" extends="baseAdmin">
+        <put-attribute name="title" value="Quản trị OUAdmissions"/>
+        <put-attribute name="content"
+                       value="/WEB-INF/pages/date.jsp" />
+    </definition>
+</tiles-definitions>
+
