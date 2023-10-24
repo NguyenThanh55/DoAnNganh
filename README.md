@@ -7,17 +7,21 @@ Hệ thống tư vấn tuyển sinh được tạo ra nhằm giúp ích cho các
 ## Chức năng chính
 
 Dự án bao gồm các chức năng như sau:
-+Tài khoản sinh viên
--Đăng ký
--Đăng nhập
--Xem thông tin cơ bản của trang web và thông tin từ những trang web khác
--Bình luận
--Quên/Đổi mật khẩu
--Đặt câu hỏi thắc mắc trong thời gian được admin cho phép
--Đặt câu hỏi cho những buổi livestream trước khi bắt đầu
--Nhắn tin trực tiếp với người tư vấn của nhà trường
-+Tài khoản admin
--Thêm/sửa/xóa tất cả thông tin của hệ thống
+
+- Tài khoản sinh viên
+
+* Đăng ký
+* Đăng nhập
+* Xem thông tin cơ bản của trang web và thông tin từ những trang web khác
+* Bình luận
+* Quên/Đổi mật khẩu
+* Đặt câu hỏi thắc mắc trong thời gian được admin cho phép
+* Đặt câu hỏi cho những buổi livestream trước khi bắt đầu
+* Nhắn tin trực tiếp với người tư vấn của nhà trường
+
+- Tài khoản admin
+
+* Thêm/sửa/xóa tất cả thông tin của hệ thống
 
 ## Cài đặt môi trường
 
@@ -40,17 +44,22 @@ Dự án bao gồm các chức năng như sau:
 
 ## Ghi chú
 
-Tài khoản sinh viên:
+- Tài khoản sinh viên:
 
-- username:Thanh1
-- password:123456
-  Tài khoản người tư vấn:
-- username:mhoang
-- password:123456
-  Lưu ý: Vui lòng chờ một xíu cho trang web được được hiện thị đầy đủ dữ liệu
-  Tài khoản admin:
-- username:admin
-- password:123
+* username:Thanh1
+* password:123456
+
+- Tài khoản người tư vấn:
+
+* username:mhoang
+* password:123456
+
+# Lưu ý: Vui lòng chờ một xíu cho trang web được được hiện thị đầy đủ dữ liệu
+
+- Tài khoản admin:
+
+* username:admin
+* password:123
 
 ## Liên hệ
 
